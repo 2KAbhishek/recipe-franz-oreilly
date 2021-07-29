@@ -1,0 +1,23 @@
+{
+  "id": "oreilly",
+  "name": "O'Reilly Learning",
+  "version": "1.0.0",
+  "description": "O'Reilly Learning Platform",
+  "main": "index.js",
+  "author": "2KAbhishek",
+  "license": "GPL-3.0-or-later",
+  "config": {
+    "serviceURL": "https://learning.oreilly.com/home/",
+    "serviceName": "O'Reilly Learning",
+    "message": "O'Reilly Learning Platform",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
