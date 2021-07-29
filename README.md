@@ -35,17 +35,17 @@
 
 ## Inspiration
 
-recipe-franz-oreilly was inspired by `<reason/idea>`.
+recipe-franz-oreilly was inspired by the need to have O'Reilly Learning Platform as a service on my Ferdi setup.
 
 ## What it does
 
-recipe-franz-oreilly is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+recipe-franz-oreilly is a `Franz Recipe` that allows users to do add O'Reilly Learning Platform as a servie to Franz/Ferdi.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `Franz` or `Ferdi`.
 
 ## Getting recipe-franz-oreilly
 
@@ -59,46 +59,33 @@ cd recipe-franz-oreilly
 
 ## Using recipe-franz-oreilly
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
+1. Open the Franz Recipe folder on your machine:
+  * Mac: `~/Library/Application Support/Franz/recipes/dev/oreilly`
+  * Windows: `%appdata%/Franz/recipes/dev/oreilly`
+  * Linux: `~/.config/Franz/recipes/dev/oreilly`
 
-FLAGS:
-    -h, --help              Prints help information.
+2. Create a `dev` folder if you have not already done so
 
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
+3. Unzip and copy the `recipe-franz-oreilly` folder into the recipes dev directory
 
-Example:
-
-
-```
+4. Restart Franz
 
 ## How it was built
 
-recipe-franz-oreilly was built using `<tech/library>`
+recipe-franz-oreilly was built using `web technologies`
 
 ## Challenges faced
 
-While building recipe-franz-oreilly the main challenges were `<issue/difficulty>`
+While building recipe-franz-oreilly the main challenge was adding dark mode to the O'Reilly service.
 
 ## What I learned
 
-While building recipe-franz-oreilly I `<learned/accomplished>` about `<learning/accomplishment>`
+While building recipe-franz-oreilly I learned about some internals of Franz and Ferdi.
 
 ## What's next
 
-Planning to add `<feature/module>`.
+Planning to add dark mode.
 
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
 
 Hit the ⭐ button if you found this useful.
 
